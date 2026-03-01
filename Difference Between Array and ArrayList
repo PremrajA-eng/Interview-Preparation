@@ -1,0 +1,39 @@
+🔥 Difference Between Array and ArrayList in Java
+🔹 1️⃣ Array
+✅ Key Points:
+
+Fixed size (cannot grow/shrink after creation)
+
+Can store primitive and object types
+
+Faster than ArrayList
+
+Part of core Java (not Collection framework)
+
+Example:
+int[] arr = new int[3];
+arr[0] = 10;
+arr[1] = 20;
+arr[2] = 30;
+
+👉 Size is fixed (3). Cannot add more elements.
+
+🔹 2️⃣ ArrayList
+
+Class from Java Collection Framework
+
+Located in java.util package
+
+Dynamic size (can grow automatically)
+
+Can store objects only (not primitives directly)
+
+Example:
+import java.util.ArrayList;
+
+ArrayList<Integer> list = new ArrayList<>();
+list.add(10);
+list.add(20);
+list.add(30);
+
+👉 Size increases automatically.
